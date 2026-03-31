@@ -12,5 +12,5 @@ query = {
 
 res = requests.post("https://leetcode.com/graphql", json=query)
 
-with open("data1.json", "w") as f:
+with open("data.json", "w") as f:
     json.dump(res.json(), f)
