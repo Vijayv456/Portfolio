@@ -2,9 +2,9 @@ name: Update LeetCode Data
 
 on:
   schedule:
-    #- cron: '30 18 * * *'   # once daily at 00:00 IST
+    - cron: '30 18 * * *'   # once daily at 00:00 IST
     #- cron: '*/2 * * * *' # every 2 minutes, for testing only (uncomment to test)
-    - cron: '0 0 * * *'   # once per day (UTC)
+    #- cron: '0 0 * * *'   # once per day (UTC)
   workflow_dispatch:
 
 jobs:
